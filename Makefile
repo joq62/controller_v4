@@ -4,7 +4,7 @@ all:
 #	iaas
 	erlc -I ../../interfaces -o ebin ../../iaas/src/*.erl;
 #	controller
-	erlc -I ../../interfaces -o ebin ../../controller/src/*.erl;
+	erlc -I ../../interfaces -o ebin ../../kube_controller/src/*.erl;
 #	application
 	cp src/*.app ebin;
 	erlc -o ebin src/*.erl;
