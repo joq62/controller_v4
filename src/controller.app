@@ -8,5 +8,7 @@
 {registered,[controller]},
 {applications, [kernel,stdlib]},
 {mod, {controller_app,[]}},
-{start_phases, []}
+{start_phases, []},
+{git_path,"https://github.com/joq62/controller.git"},
+{env,[]}
 ]}.
